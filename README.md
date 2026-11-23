@@ -1,4 +1,4 @@
-# Proxy Rotator (Gemini Rotator)
+# Proxy rotator (gemini rotator) — bypass google 403 error & location is not supported — Route your application's traffic through V2Ray configs
 
 **دور زدن خطای ۴۰۳ گوگل و «location is not supported» — همچنین با این اسکریپت می‌توانید ترافیک برنامه‌تان را از طریق کانفیگ‌های V2Ray عبور بدید.**
 
