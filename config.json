@@ -1,0 +1,22 @@
+{
+  "listen": "127.0.0.1",
+  "gateway_port": 8787,
+  "http_port": 8118,
+  "socks_port": 1080,
+  "admin_port": 8790,
+  "access_token": "",
+  "api_keys": [],
+  "learn_key_from_traffic": true,
+  "probe_model": "gemini-2.5-flash",
+  "strategy": "adaptive",
+  "ipv4_direct": true,
+  "egress_mode": "ipv4",
+  "max_attempts": 4,
+  "connect_timeout": 5,
+  "read_timeout": 180,
+  "per_proxy_max_inflight": 64,
+  "probe_interval": 60,
+  "test_concurrency": 40,
+  "auto_delete_dead": true,
+  "fallback_direct": false
+}

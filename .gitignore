@@ -1,0 +1,30 @@
+# Runtime state, logs and local data (never commit these: they contain proxy endpoints)
+logs/
+run/
+data/
+config.json.bak.*
+
+# The proxy list is local to each installation; install.sh creates an empty one.
+proxies.txt
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+*.egg-info/
+
+# Xray binary and datasets (install.sh downloads the matching Xray-core release;
+# geoip.dat / geosite.dat are not used by this project)
+bin/xray
+xray
+geoip.dat
+geosite.dat
+*.zip
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
